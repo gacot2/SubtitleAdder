@@ -1,0 +1,73 @@
+.App {
+  background-color:rgb(35 36 44);
+  height: 100vh;
+  margin: 0;
+}
+
+.alertDiv{
+  width: 30vw;
+  margin: auto;
+  align-items: center;
+}
+
+.box-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+::file-selector-button {
+  display: none;
+}
+
+.noFileChosenButton{
+  width: 100vw;
+}
+.box-description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  width: 50vw;
+  margin: auto;
+   font-family: ArialRounded;
+}
+
+.box-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  font-family: ArialRounded;
+  
+}
+
+.presentation-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 10px;
+  font-size: 18px;
+  width: 25vw;  
+}
+
+.presentation{
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.title{
+  color: aliceblue;
+  font-size:'larger';
+}
+.downloadBox{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center; /* Centering Horizantly */
+  align-items: center; /* Centering Vertically */
+
+}
+
+
+

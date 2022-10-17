@@ -11,8 +11,11 @@
     <br />
    <p>
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://www.youtube.com/watch?v=esNah2AqL5c&ab_channel=GabrielC%C3%B4t%C3%A9">View Demo In English</a>
+     </br>
+         <a href="https://www.youtube.com/watch?v=VaEDV1Stzvk&ab_channel=GabrielC%C3%B4t%C3%A9">View Demo In French</a>
   </p>
+  
 </div>
 
 
@@ -34,7 +37,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+  
     <li><a href="#contact">Contact</a></li>
 
   </ol>
@@ -82,8 +85,7 @@ This is an example of how to list things you need to use the software and how to
 You will need to download the Vosk model from their website. I couldn't upload the model on github, the file was too big. Here's a link to the model, it's the vosk-model-fr-0.22
 https://alphacephei.com/vosk/models
 
-* Node
-I'm using node 16.14.0
+* I'm using Node 16.14.0
 
 ### Test :electric_plug:
 
@@ -92,26 +94,15 @@ I'm using node 16.14.0
    npm install
    ```
 2. Run the server
-Go to the backend folder and type
-   ```js
+   Go to the backend folder and type
+   ```sh
    node backend.js
    ```
 3. Run the frontend
-Go to the src folder and type
-   ```js
-  npm start
+   Go to the src folder and type
+   ```sh
+   npm start
    ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage :cd:
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

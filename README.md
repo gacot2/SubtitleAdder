@@ -77,27 +77,29 @@ That's why I created Sub. In order to make life easier for online content creato
 ### Prerequisites 💻	
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
-### Installation :electric_plug:
+* Vosk Model
+You will need to download the Vosk model from their website. I couldn't upload the model on github, the file was too big. Here's a link to the model, it's the vosk-model-fr-0.22
+https://alphacephei.com/vosk/models
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+* Node
+I'm using node 16.14.0
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
+### Test :electric_plug:
+
+1. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
+2. Run the server
+Go to the backend folder and type
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   node backend.js
+   ```
+3. Run the frontend
+Go to the src folder and type
+   ```js
+  npm start
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

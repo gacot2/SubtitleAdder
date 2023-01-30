@@ -20,6 +20,8 @@
     "react-router-dom": "^6.4.1",
     "react-scripts": "5.0.1",
     "request": "^2.88.2",
+    "sequelize": "^6.28.0",
+    "sqlite3": "^5.1.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
